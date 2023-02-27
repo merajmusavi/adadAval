@@ -17,7 +17,7 @@ namespace ConsoleApp1
             for(int i=first+1; i<second;i++){
       
                 bool isPrime = true;
-               for(int x = 2; x<=i/2; x++){
+               for(int x = 2; x<=Math.Sqrt(i); x++){
                 if(i%x==0){
                   isPrime = false;
                   break;
